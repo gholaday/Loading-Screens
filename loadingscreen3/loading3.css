@@ -1,0 +1,103 @@
+
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+* {
+    background:#333333;
+}
+
+#loading {
+    color:white;
+    font-family: "Montserrat", "sans-serif";
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    font-size: 4em;
+    text-shadow: 2px 2px grey;
+    
+    
+}
+
+#l{
+    display: inline-block;
+    animation: bottom-to-top 4s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite forwards;
+    
+}
+
+#o{
+    display: inline-block;
+    transform: translateY(1000%);
+    animation: top-to-bottom 4s .5s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite forwards;   
+    
+}
+
+#a{
+    display: inline-block;
+    transform: translateY(-1000%);
+    animation: bottom-to-top 4s 1s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite forwards;
+    
+}
+
+#d{
+    display: inline-block;
+    transform: translateY(1000%);
+    animation: top-to-bottom 4s 1.5s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite forwards; 
+    
+    
+}
+
+#i{
+    display: inline-block;
+    transform: translateY(-1000%);
+    animation: bottom-to-top 4s 2.0s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite forwards;
+    
+    
+}
+#n{
+    display: inline-block;
+    transform: translateY(1000%);
+    animation: top-to-bottom 4s 2.5s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite forwards; 
+    
+}
+
+#g{
+    display: inline-block;
+    transform: translateY(-1000%);
+    animation: bottom-to-top 4s 3s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite forwards;
+    
+}
+
+@keyframes bottom-to-top {
+    
+    from {
+        transform: translate(0, -1000%);
+        
+        
+    }
+    to{
+        transform: translate(0, 1000%);
+        
+    }
+}
+
+@keyframes top-to-bottom {
+    
+    from {
+        transform: translate(0, 1000%);
+        
+        
+    }
+    to{
+        transform: translate(0, -1000%);
+        
+    }
+}
+
+
+
+
