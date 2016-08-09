@@ -1,0 +1,122 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x:hidden;
+}
+
+* {
+    background:#333333;
+}
+
+#loading {
+    color:white;
+    font-family: "Montserrat", "sans-serif";
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    
+    font-size: 4em;
+    text-shadow: 2px 2px grey;
+    
+}
+
+#l{
+    opacity: 0;
+    -webkit-animation: fade 3s infinite ease-in-out alternate;
+    -moz-animation: fade 3s infinite ease-in-out alternate;
+    animation: fade 3s infinite ease-in-out alternate;
+    
+}
+
+#o{
+    opacity: 0;
+    -webkit-animation: fade 3s 1s infinite ease-in-out alternate;
+    -moz-animation: fade 3s 1s infinite ease-in-out alternate;
+    animation: fade 3s 1s infinite ease-in-out alternate;
+    
+    
+}
+
+#a{
+    opacity: 0;
+    -webkit-animation: fade 3s 2s infinite ease-in-out alternate;
+    -moz-animation: fade 3s 2s infinite ease-in-out alternate;
+    animation: fade 3s 2s infinite ease-in-out alternate;
+    
+    
+}
+
+#d{
+    opacity: 0;
+    -webkit-animation: fade 3s 3s infinite ease-in-out alternate;
+    -moz-animation: fade 3s 3s infinite ease-in-out alternate;
+    animation: fade 3s 3s infinite ease-in-out alternate;
+    
+    
+}
+
+#i{
+    opacity: 0;
+    -webkit-animation: fade 3s 4s infinite ease-in-out alternate;
+    -moz-animation: fade 3s 4s infinite ease-in-out alternate;
+    animation: fade 3s 4s infinite ease-in-out alternate;
+    
+    
+}
+#n{
+    opacity: 0;
+    -webkit-animation: fade 3s 5s infinite ease-in-out alternate;
+    -moz-animation: fade 3s 5s infinite ease-in-out alternate;
+    animation: fade 3s 5s infinite ease-in-out alternate;
+    
+    
+}
+
+#g{
+    opacity: 0;
+    -webkit-animation: fade 3s 6s infinite ease-in-out alternate;
+    -moz-animation: fade 3s 6s infinite ease-in-out alternate;
+    animation: fade 3s 6s infinite ease-in-out alternate;
+    
+    
+}
+
+@-webkit-keyframes fade {
+    
+    0%{
+        opacity: 0.0;
+    }
+    
+    100%{
+        
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade {
+    
+    0%{
+        opacity: 0.0;
+    }
+    
+    100%{
+        
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    
+    0%{
+        opacity: 0.0;
+    }
+    
+    100%{
+        
+        opacity: 1;
+    }
+}
+
+
+
