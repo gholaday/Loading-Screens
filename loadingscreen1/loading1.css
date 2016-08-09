@@ -1,0 +1,94 @@
+html, body {
+    max-width: 100%;
+    overflow-x:hidden;
+}
+
+* {
+    
+    background-color: white;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: #3399FF;
+    text-shadow: 1px 1px #000000;
+    font-size: 80; 
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    opacity: .5;
+    
+    -webkit-transform: translateX(-100%);
+    
+    -webkit-animation: scroll-right 2s cubic-bezier(0.025, 1.000, 1.000, 0.025) infinite;
+    
+}
+
+
+@-webkit-keyframes scroll-right {
+    0%{
+        -webkit-transform: translateX(-100%);
+        opacity: .5;
+    }
+    50%{                            
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+        opacity: 1;
+    }
+}
+
+
+.load{
+    margin-top: 200px;
+    left: 50%;  
+    margin:250px auto 0 auto;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background:#3366CC;
+    -webkit-animation: square-to-circle 3s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+
+    
+}
+
+@-webkit-keyframes square-to-circle {
+    
+    0%{
+        
+        border-radius: 0 50% 50% 50%;
+        transform: rotate(45deg);
+        
+       
+    }
+    
+    25%{
+        border-radius: 0% 50% 0% 50%;
+        transform: rotate(135deg);
+        
+    }
+  
+    50%{
+       
+        border-radius: 0% 0% 50% 0%;
+        transform: rotate(225deg);
+        
+    }
+    
+    75%{
+        border-radius: 0% 0% 0% 0%;
+        transform: rotate(315deg);
+        
+    }
+   
+    100%{
+         border-radius: 0% 50% 50% 50%;
+         transform: rotate(405deg);
+        
+        
+    }
+    
+}
+
+
